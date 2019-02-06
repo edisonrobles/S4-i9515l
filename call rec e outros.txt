@@ -1,0 +1,22 @@
+
+coloque essas linhas em other.xml
+edit (system/csc/
+other.xml)
+
+<CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+
+remover knox
+edit build.prop e coloque essas linhas
+
+ro.config.knox=v30 to
+ro.config.knox =0
+
+
+coloque essas linhas em other.xml
+edit (system/csc/
+other.xml)
+
+<CscFeature_Setting_EnableMenuBlockCallMsg>TRUE</CscFeature_Setting_EnableMenuBlockCallMsg>
+
+ 
+
